@@ -4,7 +4,7 @@ namespace DesafioProjetoHospedagem.Models
     {
         public Suite() { }
 
-        public Suite(string tipoSuite, int capacidade, decimal valorDiaria)
+        public Suite(string tipoSuite, int capacidade, decimal valorDiaria) // construtor na hora do Program
         {
             TipoSuite = tipoSuite;
             Capacidade = capacidade;
